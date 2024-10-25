@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sky: Children of the Item</title>
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/toastr/toastr.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./assets/images/skykid.ico" type="image/x-icon">
+    
+  </head>
+  <body>
+    <nav class="navbar">
+      <h2 class="title"><a href="index.html" style="text-decoration: none; color: black;">Chiselias</a></h2>
+      <ul class="menu">
+        <li><a href="index.html" class="active">Profiles</a></li>
+      <li><a href="projects.html">PROJECTS</a></li>
+      <li><a href="offers.html">OFFERS</a></li>
+      </ul>
+      <ul class="menu__icons">
+        <li><a href="about.html"><i class="bi bi-person" ></i></a></li>
+        <!--<li><a href="policy.html"><i class="bi bi-x-diamond-fill" ></i></a></li>-->
+        <li class="basket__icon" onclick="toggleModal()">
+          <i class="bi bi-bag"></i>
+          <span class="basket__count"></span>
+        </li>
+      </ul>
+    </nav>
+    <section class="slider">
+      <div
+        id="carouselBookSlider"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="./assets/images/skukid.jpg"
+              class="d-block w-100"
+              alt="Sky"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/skukid2.jpg"
+              class="d-block w-100"
+              alt="Sky"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./assets/images/skukid3.jpg"
+              class="d-block w-100"
+              alt="Sky"
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselBookSlider"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselBookSlider"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <section class="slider2">
+      <h3 style="margin-top: 3%; display: flex; justify-content: center;">🎉 Save money in every purchase! Discount will end on September 11th. 🎉</h3>
+      <h3 style=" display: flex; justify-content: center;"> Please reload the page if you cannot see items. </h3>
+    </section>
+    <section class="store my-5">
+      <div class="filter__background"></div>
+      <ul class="filter">
+        <li class="active">Tümü</li>
+        <li>ROMAN</li>
+        <li>Kişisel Gelişim</li>
+        <li>Fantastik</li>
+      </ul>
+      <div class="row book__list"></div>
+    </section>
+      <div class="container">
+        
+        <div class="owl-container">
+        <div class="owl-wrapper">
+            <div class="bird-part wings-left-part">
+            <div class="owl-wing-part">
+              <div class="owl-leftwings owl-wings">
+                <div class="wing1"></div>
+                <div class="wing1"></div>
+                <div class="wing1"></div>
+                <div class="wing1"></div>
+                <div class="wing1"></div>
+              </div>
+            </div>
+            </div>
+            <div class="bird-part bird-center-part">
+             <div class="owl-inside-parts">
+               <div class="owl-triangle1"></div>
+               <div class="owl-triangle1"></div>
+             </div>
+             <div class="owl-inside-parts">
+             <div class="owl-half-back"></div>
+               <div class="owl-eyes">
+                 <div class="eye-cover">
+                   <div class="left-eye-wrapper"><div class="eye"></div></div>
+                 </div>
+                 <div class="eye-cover">
+                   <div class="left-eye-wrapper"><div class="eye"></div></div>
+                 </div>
+               </div>
+               <div class="owl-nose-part">
+                 <div class="owl-nose-center"><div class="nose"></div><div class="nose"></div></div>
+               </div>
+               <div class="owl-stomach">
+                 <div class="stomach-inside"></div>
+               </div>
+             </div>
+             <div class="owl-inside-parts">
+             <div class="owl-flat"><div class="inside-flat"></div></div>
+             <div class="owl-flat"><div class="inside-flat"></div></div>
+             </div>
+            </div>
+            <div class="bird-part wings-right-part">
+            <div class="owl-wing-part">
+              <div class="owl-rightwings owl-wings">
+                <div class="wing1"></div>
+                <div class="wing1"></div>
+                <div class="wing1"></div>
+                <div class="wing1"></div>
+                <div class="wing1"></div>
+              </div>
+             </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div>
+    <section class="slider4">
+      <h2 style="margin-top: 100px; font-weight: 700;">LETS KEEP IN TOUCH!</h2>
+      <p style="margin-top: 40px; font-size: 20px; display: flex; justify-content: center;"> Join my discord server to send your order. Available between 10:00 am to 6:00 pm (GMT+3)</p>
+       <div class="button-container">
+              <button class="btn__purple1" onclick="window.open('https://discord.gg/smZrSyCg', '_blank');"><i class="bi bi-discord"></i></button>
+              <button class="btn__purple1" onclick="window.open('mailto:suayakbudak@gmail.com');"><i class="bi bi-envelope-heart-fill"></i></button>
+              <button class="btn__purple1" onclick="window.open('https://www.linkedin.com/in/suay-akbudak-6b3b28183', '_blank');"><i class="bi bi-linkedin"></i></button>
+          </div>
+
+  </section>
+    <footer>
+        <p> Made with ❤️ by <span class="magic">
+          <span class="magic-star">
+            <svg viewBox="0 0 512 512">
+            <path d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z" />
+            </svg>
+          </span>
+          <span class="magic-star">
+            <svg viewBox="0 0 512 512">
+            <path d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z" />
+            </svg>
+          </span>
+          <span class="magic-star">
+            <svg viewBox="0 0 512 512">
+            <path d="M512 255.1c0 11.34-7.406 20.86-18.44 23.64l-171.3 42.78l-42.78 171.1C276.7 504.6 267.2 512 255.9 512s-20.84-7.406-23.62-18.44l-42.66-171.2L18.47 279.6C7.406 276.8 0 267.3 0 255.1c0-11.34 7.406-20.83 18.44-23.61l171.2-42.78l42.78-171.1C235.2 7.406 244.7 0 256 0s20.84 7.406 23.62 18.44l42.78 171.2l171.2 42.78C504.6 235.2 512 244.6 512 255.1z" />
+            </svg>
+          </span>
+          <span class="magic-text">Suay Akbudak.</span></span></p>
+    </footer>
+  </section>
+    <div class="basket__modal">
+      <div class="basket__items">
+        <i class="bi bi-x" onclick="toggleModal()"></i>
+        <h2 class="basket__title">Your Items</h2>
+        <ul class="basket__list">
+          <li class="basket__item">No items to Buy again.</li>
+        </ul>
+        <div class="basket__total">
+          <span class="fw-bold mb-3 fs-4 total__price"></span>
+          <button class="btn__purple" value="Capture" type="button" onclick="capture()">CHECKOUT</button>
+        </div>
+      </div>
+      
+    <script
+      type="text/javascript"
+      src="assets/bootstrap/js/bootstrap.min.js"
+    ></script>
+    <script src="./assets/jquery/jquery.min.js"></script>
+    <script src="./assets/toastr/toastr.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+      function capture(){
+        html2canvas(document.querySelector(".basket__items")).then(canvas=>{
+          let a = document.createElement("a");
+          a.download = "purchase.png";
+          a.href = canvas.toDataURL("image/png");
+          a.click();
+        })
+      }
+    </script>
+    <script type="text/javascript" src="app.js"></script>
+    <script src="star.js"></script>
+    
+  </body>
+</html>
